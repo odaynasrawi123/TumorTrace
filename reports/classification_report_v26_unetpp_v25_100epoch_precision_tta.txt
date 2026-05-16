@@ -1,0 +1,48 @@
+
+TRAIN IMAGE-LEVEL CLASSIFICATION REPORT
+================================================================================
+              precision    recall  f1-score   support
+
+     notumor     0.9886    0.8674    0.9240      1297
+    yestumor     0.8827    0.9901    0.9333      1307
+
+    accuracy                         0.9290      2604
+   macro avg     0.9356    0.9287    0.9287      2604
+weighted avg     0.9354    0.9290    0.9287      2604
+
+Confusion Matrix:
+[[1125  172]
+ [  13 1294]]
+
+
+VALIDATION IMAGE-LEVEL CLASSIFICATION REPORT
+================================================================================
+              precision    recall  f1-score   support
+
+     notumor     0.9783    0.8182    0.8911       275
+    yestumor     0.8462    0.9821    0.9091       280
+
+    accuracy                         0.9009       555
+   macro avg     0.9122    0.9002    0.9001       555
+weighted avg     0.9116    0.9009    0.9002       555
+
+Confusion Matrix:
+[[225  50]
+ [  5 275]]
+
+
+TEST IMAGE-LEVEL CLASSIFICATION REPORT
+================================================================================
+              precision    recall  f1-score   support
+
+     notumor     0.9828    0.8179    0.8928       280
+    yestumor     0.8440    0.9857    0.9094       280
+
+    accuracy                         0.9018       560
+   macro avg     0.9134    0.9018    0.9011       560
+weighted avg     0.9134    0.9018    0.9011       560
+
+Confusion Matrix:
+[[229  51]
+ [  4 276]]
+

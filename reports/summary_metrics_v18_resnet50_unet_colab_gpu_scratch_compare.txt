@@ -1,0 +1,36 @@
+Run version: v18_resnet50_unet_colab_gpu_scratch_compare
+Model type: ResNet50-U-Net from scratch
+Data arrays version: v9_roi_polygon_only_160
+Model path: /content/drive/MyDrive/TumorDataset/models/best_v18_resnet50_unet_colab_gpu_scratch_compare.keras
+IMG_SIZE: 160
+BATCH_SIZE: 8
+EPOCHS: 40
+LEARNING_RATE: 0.0001
+RESNET_WEIGHTS: None
+
+BEST THRESHOLDS
+------------------------------------------------------------
+Best segmentation combo: (0.4000000059604645, 1, 20)
+Best classification combo: (0.44999998807907104, 1, 20)
+Best balanced combo: (0.44999998807907104, 1, 20)
+Using prediction threshold: 0.44999998807907104
+Using pixel threshold: 1
+Using min area: 20
+
+RAW SEGMENTATION
+------------------------------------------------------------
+Train Dice: 0.8593, IoU: 0.7684
+Val Dice: 0.7839, IoU: 0.6639
+Test Dice: 0.7836, IoU: 0.6665
+
+POST-PROCESS SEGMENTATION
+------------------------------------------------------------
+Train Dice: 0.8722, IoU: 0.7733
+Val Dice: 0.8023, IoU: 0.6699
+Test Dice: 0.8087, IoU: 0.6789
+
+IMAGE-LEVEL CLASSIFICATION
+------------------------------------------------------------
+Train Accuracy: 0.9674, Recall: 0.9610, F1: 0.9673
+Val Accuracy: 0.9279, Recall: 0.9679, F1: 0.9313
+Test Accuracy: 0.9393, Recall: 0.9679, F1: 0.9410
