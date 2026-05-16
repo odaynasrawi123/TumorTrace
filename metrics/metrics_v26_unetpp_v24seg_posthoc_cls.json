@@ -1,0 +1,44 @@
+{
+    "run_version": "v26_unetpp_v24seg_posthoc_cls",
+    "mode": "v24_segmentation_plus_posthoc_classifier",
+    "segmentation_source_model": "v23_unetpp_seg_focus_tta",
+    "v24_pred_threshold": 0.47999998927116394,
+    "v24_pixel_threshold": 1,
+    "v24_min_area": 180,
+    "v24_border": 4,
+    "v24_open_kernel": 3,
+    "v24_close_kernel": 5,
+    "test_post_dice": 0.8092439534433344,
+    "test_post_iou": 0.6796051599179448,
+    "baseline_mask_area_accuracy": 0.8857142857142857,
+    "baseline_mask_area_recall": 0.9857142857142858,
+    "baseline_mask_area_precision": 0.8214285714285714,
+    "baseline_mask_area_f1": 0.8961038961038961,
+    "best_classifier": "logistic_regression",
+    "best_classifier_threshold": 0.4100000000000002,
+    "posthoc_image_accuracy": 0.95,
+    "posthoc_image_recall": 0.9607142857142857,
+    "posthoc_image_precision": 0.9405594405594405,
+    "posthoc_image_f1": 0.950530035335689,
+    "posthoc_confusion_matrix": [
+        [
+            263,
+            17
+        ],
+        [
+            11,
+            269
+        ]
+    ],
+    "target_resnet_accuracy": 0.9393,
+    "target_resnet_f1": 0.941,
+    "target_unet_dice": 0.8104,
+    "target_unet_iou": 0.6812,
+    "classifier_path": "/content/drive/MyDrive/TumorDataset/models/classifier_v26_unetpp_v24seg_posthoc_cls.joblib",
+    "features_train_csv": "/content/drive/MyDrive/TumorDataset/reports/features_train_v26_unetpp_v24seg_posthoc_cls.csv",
+    "features_val_csv": "/content/drive/MyDrive/TumorDataset/reports/features_val_v26_unetpp_v24seg_posthoc_cls.csv",
+    "features_test_csv": "/content/drive/MyDrive/TumorDataset/reports/features_test_v26_unetpp_v24seg_posthoc_cls.csv",
+    "classification_report_txt": "/content/drive/MyDrive/TumorDataset/reports/classification_report_v26_unetpp_v24seg_posthoc_cls.txt",
+    "classifier_val_search_csv": "/content/drive/MyDrive/TumorDataset/reports/classifier_val_search_v26_unetpp_v24seg_posthoc_cls.csv",
+    "feature_importance_csv": "/content/drive/MyDrive/TumorDataset/reports/feature_importance_v26_unetpp_v24seg_posthoc_cls.csv"
+}

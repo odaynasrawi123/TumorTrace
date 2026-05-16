@@ -1,0 +1,271 @@
+{
+    "run_version": "v26_unetpp_v25_100epoch_precision_tta",
+    "previous_run_version": "v25_unetpp_v24_ultra_focused_tta",
+    "data_arrays_version": "v9_roi_polygon_only_160",
+    "img_size": 160,
+    "batch_size": 8,
+    "epochs": 100,
+    "learning_rate": 1.25e-07,
+    "training_seconds": 1142.1086394786835,
+    "training_minutes": 19.03514399131139,
+    "best_seg_combo": [
+        0.4699999988079071,
+        1,
+        360
+    ],
+    "best_cls_combo": [
+        0.5400000214576721,
+        1,
+        380
+    ],
+    "best_balanced_combo": [
+        0.5,
+        1,
+        300
+    ],
+    "final_selected_combo": [
+        0.4699999988079071,
+        1,
+        360
+    ],
+    "best_pred_threshold": 0.4699999988079071,
+    "best_pixel_threshold": 1,
+    "best_min_area": 360,
+    "model_path": "/content/drive/MyDrive/TumorDataset/models/best_unetpp_v26_unetpp_v25_100epoch_precision_tta.keras",
+    "history_csv": "/content/drive/MyDrive/TumorDataset/reports/history_v26_unetpp_v25_100epoch_precision_tta.csv",
+    "threshold_csv": "/content/drive/MyDrive/TumorDataset/reports/threshold_search_v26_unetpp_v25_100epoch_precision_tta.csv",
+    "manual_combo_csv": "/content/drive/MyDrive/TumorDataset/reports/manual_combo_test_compare_v26_unetpp_v25_100epoch_precision_tta.csv",
+    "classification_report": "/content/drive/MyDrive/TumorDataset/reports/classification_report_v26_unetpp_v25_100epoch_precision_tta.txt",
+    "graphs_dir": "/content/drive/MyDrive/TumorDataset/graphs/v26_unetpp_v25_100epoch_precision_tta",
+    "metrics_graph": "/content/drive/MyDrive/TumorDataset/graphs/v26_unetpp_v25_100epoch_precision_tta/metrics_train_val_test_v26_unetpp_v25_100epoch_precision_tta.png",
+    "training_curves": "/content/drive/MyDrive/TumorDataset/graphs/v26_unetpp_v25_100epoch_precision_tta/training_curves_v26_unetpp_v25_100epoch_precision_tta.png",
+    "manual_combo_results": [
+        {
+            "pred_threshold": 0.48,
+            "pixel_threshold": 1,
+            "min_area": 260,
+            "test_post_dice": 0.8098651074665761,
+            "test_post_iou": 0.6804817777778914,
+            "test_image_accuracy": 0.8982142857142857,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9064039408866995
+        },
+        {
+            "pred_threshold": 0.49,
+            "pixel_threshold": 1,
+            "min_area": 260,
+            "test_post_dice": 0.8098662847708529,
+            "test_post_iou": 0.6804834401443624,
+            "test_image_accuracy": 0.8982142857142857,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9064039408866995
+        },
+        {
+            "pred_threshold": 0.5,
+            "pixel_threshold": 1,
+            "min_area": 260,
+            "test_post_dice": 0.8104364278943532,
+            "test_post_iou": 0.6812888750954837,
+            "test_image_accuracy": 0.9053571428571429,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.912396694214876
+        },
+        {
+            "pred_threshold": 0.48,
+            "pixel_threshold": 1,
+            "min_area": 280,
+            "test_post_dice": 0.8098651074665761,
+            "test_post_iou": 0.6804817777778914,
+            "test_image_accuracy": 0.8982142857142857,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9064039408866995
+        },
+        {
+            "pred_threshold": 0.49,
+            "pixel_threshold": 1,
+            "min_area": 280,
+            "test_post_dice": 0.8099111800786184,
+            "test_post_iou": 0.6805468352624219,
+            "test_image_accuracy": 0.9,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9078947368421053
+        },
+        {
+            "pred_threshold": 0.5,
+            "pixel_threshold": 1,
+            "min_area": 280,
+            "test_post_dice": 0.8104364278943532,
+            "test_post_iou": 0.6812888750954837,
+            "test_image_accuracy": 0.9053571428571429,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.912396694214876
+        },
+        {
+            "pred_threshold": 0.49,
+            "pixel_threshold": 1,
+            "min_area": 300,
+            "test_post_dice": 0.8099600373330813,
+            "test_post_iou": 0.6806158303440519,
+            "test_image_accuracy": 0.9017857142857143,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9093904448105437
+        },
+        {
+            "pred_threshold": 0.5,
+            "pixel_threshold": 1,
+            "min_area": 300,
+            "test_post_dice": 0.8105356545329309,
+            "test_post_iou": 0.681429130366009,
+            "test_image_accuracy": 0.9089285714285714,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9154228855721394
+        },
+        {
+            "pred_threshold": 0.51,
+            "pixel_threshold": 1,
+            "min_area": 300,
+            "test_post_dice": 0.8096929230781539,
+            "test_post_iou": 0.680238686954716,
+            "test_image_accuracy": 0.9107142857142857,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9169435215946844
+        },
+        {
+            "pred_threshold": 0.5,
+            "pixel_threshold": 1,
+            "min_area": 320,
+            "test_post_dice": 0.8105888278425862,
+            "test_post_iou": 0.6815042996211039,
+            "test_image_accuracy": 0.9107142857142857,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9169435215946844
+        },
+        {
+            "pred_threshold": 0.51,
+            "pixel_threshold": 1,
+            "min_area": 320,
+            "test_post_dice": 0.8097454650781176,
+            "test_post_iou": 0.6803128585696429,
+            "test_image_accuracy": 0.9125,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9184692179700499
+        },
+        {
+            "pred_threshold": 0.52,
+            "pixel_threshold": 1,
+            "min_area": 320,
+            "test_post_dice": 0.8093232397974114,
+            "test_post_iou": 0.6797170036809803,
+            "test_image_accuracy": 0.9125,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9184692179700499
+        },
+        {
+            "pred_threshold": 0.51,
+            "pixel_threshold": 1,
+            "min_area": 340,
+            "test_post_dice": 0.8097454650781176,
+            "test_post_iou": 0.6803128585696429,
+            "test_image_accuracy": 0.9125,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9184692179700499
+        },
+        {
+            "pred_threshold": 0.52,
+            "pixel_threshold": 1,
+            "min_area": 340,
+            "test_post_dice": 0.8093232397974114,
+            "test_post_iou": 0.6797170036809803,
+            "test_image_accuracy": 0.9125,
+            "test_image_recall": 0.9857142857142858,
+            "test_image_f1": 0.9184692179700499
+        }
+    ],
+    "train_loss": 0.22102871537208557,
+    "train_dice_raw": 0.8286470770835876,
+    "train_iou_raw": 0.7218251824378967,
+    "val_loss": 0.2969454526901245,
+    "val_dice_raw": 0.7678031921386719,
+    "val_iou_raw": 0.6372391581535339,
+    "test_loss": 0.2760235667228699,
+    "test_dice_raw": 0.7842615246772766,
+    "test_iou_raw": 0.6597617268562317,
+    "train_post_dice": 0.8368530775589323,
+    "train_post_iou": 0.7194732337017773,
+    "train_pixel_precision": 0.8019073716500038,
+    "train_pixel_recall": 0.8749833034145965,
+    "train_pixel_f1": 0.8368530775589248,
+    "train_pixel_accuracy": 0.9469730162730414,
+    "train_image_precision": 0.8826739427012278,
+    "train_image_recall": 0.990053557765876,
+    "train_image_f1": 0.9332852506310855,
+    "train_image_accuracy": 0.9289554531490015,
+    "train_image_confusion_matrix": [
+        [
+            1125,
+            172
+        ],
+        [
+            13,
+            1294
+        ]
+    ],
+    "train_notumor_precision": 0.9885764499121266,
+    "train_notumor_recall": 0.8673862760215882,
+    "train_notumor_f1": 0.9240246406570842,
+    "train_yestumor_precision": 0.8826739427012278,
+    "train_yestumor_recall": 0.990053557765876,
+    "train_yestumor_f1": 0.9332852506310855,
+    "val_post_dice": 0.7884071352882412,
+    "val_post_iou": 0.6507195265431696,
+    "val_pixel_precision": 0.7657252277085996,
+    "val_pixel_recall": 0.8124738044759287,
+    "val_pixel_f1": 0.7884071352881947,
+    "val_pixel_accuracy": 0.932259009009009,
+    "val_image_precision": 0.8461538461538461,
+    "val_image_recall": 0.9821428571428571,
+    "val_image_f1": 0.9090909090909091,
+    "val_image_accuracy": 0.9009009009009009,
+    "val_image_confusion_matrix": [
+        [
+            225,
+            50
+        ],
+        [
+            5,
+            275
+        ]
+    ],
+    "val_notumor_precision": 0.9782608695652174,
+    "val_notumor_recall": 0.8181818181818182,
+    "val_notumor_f1": 0.8910891089108911,
+    "val_yestumor_precision": 0.8461538461538461,
+    "val_yestumor_recall": 0.9821428571428571,
+    "val_yestumor_f1": 0.9090909090909091,
+    "test_post_dice": 0.8100833406831981,
+    "test_post_iou": 0.6807899816684474,
+    "test_pixel_precision": 0.7917300275550265,
+    "test_pixel_recall": 0.8293077534875423,
+    "test_pixel_f1": 0.8100833406831581,
+    "test_pixel_accuracy": 0.9372154017857143,
+    "test_image_precision": 0.8440366972477065,
+    "test_image_recall": 0.9857142857142858,
+    "test_image_f1": 0.9093904448105437,
+    "test_image_accuracy": 0.9017857142857143,
+    "test_image_confusion_matrix": [
+        [
+            229,
+            51
+        ],
+        [
+            4,
+            276
+        ]
+    ],
+    "test_notumor_precision": 0.9828326180257511,
+    "test_notumor_recall": 0.8178571428571428,
+    "test_notumor_f1": 0.8927875243664717,
+    "test_yestumor_precision": 0.8440366972477065,
+    "test_yestumor_recall": 0.9857142857142858,
+    "test_yestumor_f1": 0.9093904448105437
+}

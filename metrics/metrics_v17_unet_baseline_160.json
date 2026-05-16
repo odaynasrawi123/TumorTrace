@@ -1,0 +1,64 @@
+{
+    "run_version": "v17_unet_baseline_160",
+    "model_type": "unet",
+    "data_arrays_version": "v9_roi_polygon_only_160",
+    "img_size": 160,
+    "batch_size": 4,
+    "initial_epoch": 22,
+    "epochs_requested": 25,
+    "epochs_trained_this_run": 3,
+    "learning_rate": 0.0001,
+    "loss_mode": "focal_tversky_iou_dice_bce",
+    "resumed_training": true,
+    "resume_model_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\models\\best_v17_unet_baseline_160.keras",
+    "training_seconds": 1816.486450433731,
+    "training_minutes": 30.27477417389552,
+    "best_pred_threshold": 0.7200000286102295,
+    "best_pixel_threshold": 80,
+    "best_min_area": 80,
+    "test_loss": 0.2726649045944214,
+    "test_dice_raw": 0.7280289530754089,
+    "test_iou_raw": 0.6291778087615967,
+    "postprocess_dice": 0.8103551813705157,
+    "postprocess_iou": 0.6811740518520001,
+    "pixel_precision": 0.7968559003757334,
+    "pixel_recall": 0.8243197181194079,
+    "pixel_f1": 0.8103551813704755,
+    "pixel_accuracy": 0.9377032645089286,
+    "pixel_error_rate": 0.0622967354910714,
+    "pixel_confusion_matrix": [
+        [
+            11534829,
+            486432
+        ],
+        [
+            406654,
+            1908085
+        ]
+    ],
+    "image_precision": 0.8566978193146417,
+    "image_recall": 0.9821428571428571,
+    "image_f1": 0.9151414309484193,
+    "image_accuracy": 0.9089285714285714,
+    "image_error_rate": 0.09107142857142858,
+    "image_confusion_matrix": [
+        [
+            234,
+            46
+        ],
+        [
+            5,
+            275
+        ]
+    ],
+    "model_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\models\\best_v17_unet_baseline_160.keras",
+    "metrics_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\metrics\\metrics_v17_unet_baseline_160.json",
+    "summary_txt_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\reports\\summary_v17_unet_baseline_160.txt",
+    "classification_report_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\reports\\classification_report_v17_unet_baseline_160.txt",
+    "threshold_search_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\reports\\threshold_search_v17_unet_baseline_160.csv",
+    "history_csv_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\reports\\history_v17_unet_baseline_160.csv",
+    "graphs_dir": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\graphs\\v17_unet_baseline_160",
+    "metrics_graph_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\graphs\\v17_unet_baseline_160\\metrics_summary_v17_unet_baseline_160.png",
+    "confusion_matrix_graph_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\graphs\\v17_unet_baseline_160\\confusion_matrix_v17_unet_baseline_160.png",
+    "training_curves_path": "C:\\Users\\onasrawx\\PycharmProjects\\TumorDataset\\TumorDataset\\graphs\\v17_unet_baseline_160\\training_curves_v17_unet_baseline_160.png"
+}

@@ -1,0 +1,126 @@
+{
+    "run_version": "v18_resnet50_unet_colab_gpu_scratch_compare",
+    "model_type": "resnet50_unet_from_scratch",
+    "data_arrays_version": "v9_roi_polygon_only_160",
+    "img_size": 160,
+    "batch_size": 8,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "resnet_weights": null,
+    "training_seconds": 3066.614722967148,
+    "training_minutes": 51.1102453827858,
+    "best_seg_combo": [
+        0.4000000059604645,
+        1,
+        20
+    ],
+    "best_cls_combo": [
+        0.44999998807907104,
+        1,
+        20
+    ],
+    "best_balanced_combo": [
+        0.44999998807907104,
+        1,
+        20
+    ],
+    "best_pred_threshold": 0.44999998807907104,
+    "best_pixel_threshold": 1,
+    "best_min_area": 20,
+    "model_path": "/content/drive/MyDrive/TumorDataset/models/best_v18_resnet50_unet_colab_gpu_scratch_compare.keras",
+    "metrics_path": "/content/drive/MyDrive/TumorDataset/metrics/metrics_v18_resnet50_unet_colab_gpu_scratch_compare.json",
+    "classification_report_txt": "/content/drive/MyDrive/TumorDataset/reports/classification_report_v18_resnet50_unet_colab_gpu_scratch_compare.txt",
+    "summary_txt_path": "/content/drive/MyDrive/TumorDataset/reports/summary_metrics_v18_resnet50_unet_colab_gpu_scratch_compare.txt",
+    "threshold_search_csv": "/content/drive/MyDrive/TumorDataset/reports/threshold_search_v18_resnet50_unet_colab_gpu_scratch_compare.csv",
+    "graphs_dir": "/content/drive/MyDrive/TumorDataset/graphs/v18_resnet50_unet_colab_gpu_scratch_compare",
+    "history_csv_path": "/content/drive/MyDrive/TumorDataset/reports/history_v18_resnet50_unet_colab_gpu_scratch_compare.csv",
+    "metrics_graph_path": "/content/drive/MyDrive/TumorDataset/graphs/v18_resnet50_unet_colab_gpu_scratch_compare/metrics_train_val_test_v18_resnet50_unet_colab_gpu_scratch_compare.png",
+    "training_curves_path": "/content/drive/MyDrive/TumorDataset/graphs/v18_resnet50_unet_colab_gpu_scratch_compare/training_curves_v18_resnet50_unet_colab_gpu_scratch_compare.png",
+    "train_loss": 0.15972694754600525,
+    "train_dice_raw": 0.8592560291290283,
+    "train_iou_raw": 0.7683625817298889,
+    "val_loss": 0.2441144734621048,
+    "val_dice_raw": 0.783888041973114,
+    "val_iou_raw": 0.6638965010643005,
+    "test_loss": 0.24323394894599915,
+    "test_dice_raw": 0.7835732698440552,
+    "test_iou_raw": 0.6664960384368896,
+    "train_post_dice": 0.8721877012713776,
+    "train_post_iou": 0.7733447332101289,
+    "train_pixel_precision": 0.8838557238408121,
+    "train_pixel_recall": 0.8608237303839249,
+    "train_pixel_f1": 0.8721877012713714,
+    "train_pixel_accuracy": 0.9607857052851383,
+    "train_image_precision": 0.9736434108527132,
+    "train_image_recall": 0.9609793420045907,
+    "train_image_f1": 0.96726992683866,
+    "train_image_accuracy": 0.967357910906298,
+    "train_image_confusion_matrix": [
+        [
+            1263,
+            34
+        ],
+        [
+            51,
+            1256
+        ]
+    ],
+    "train_notumor_precision": 0.9611872146118722,
+    "train_notumor_recall": 0.9737856592135697,
+    "train_notumor_f1": 0.9674454232094982,
+    "train_yestumor_precision": 0.9736434108527132,
+    "train_yestumor_recall": 0.9609793420045907,
+    "train_yestumor_f1": 0.96726992683866,
+    "val_post_dice": 0.8023367945045521,
+    "val_post_iou": 0.6699185470699336,
+    "val_pixel_precision": 0.831118017700834,
+    "val_pixel_recall": 0.7754822128710023,
+    "val_pixel_f1": 0.8023367945045059,
+    "val_pixel_accuracy": 0.9406483671171171,
+    "val_image_precision": 0.8973509933774835,
+    "val_image_recall": 0.9678571428571429,
+    "val_image_f1": 0.9312714776632303,
+    "val_image_accuracy": 0.9279279279279279,
+    "val_image_confusion_matrix": [
+        [
+            244,
+            31
+        ],
+        [
+            9,
+            271
+        ]
+    ],
+    "val_notumor_precision": 0.9644268774703557,
+    "val_notumor_recall": 0.8872727272727273,
+    "val_notumor_f1": 0.9242424242424242,
+    "val_yestumor_precision": 0.8973509933774835,
+    "val_yestumor_recall": 0.9678571428571429,
+    "val_yestumor_f1": 0.9312714776632303,
+    "test_post_dice": 0.8087322890693821,
+    "test_post_iou": 0.6788837485049203,
+    "test_pixel_precision": 0.8332778865329344,
+    "test_pixel_recall": 0.785591377688802,
+    "test_pixel_f1": 0.8087322890693396,
+    "test_pixel_accuracy": 0.9400018833705357,
+    "test_image_precision": 0.9155405405405406,
+    "test_image_recall": 0.9678571428571429,
+    "test_image_f1": 0.9409722222222222,
+    "test_image_accuracy": 0.9392857142857143,
+    "test_image_confusion_matrix": [
+        [
+            255,
+            25
+        ],
+        [
+            9,
+            271
+        ]
+    ],
+    "test_notumor_precision": 0.9659090909090909,
+    "test_notumor_recall": 0.9107142857142857,
+    "test_notumor_f1": 0.9375,
+    "test_yestumor_precision": 0.9155405405405406,
+    "test_yestumor_recall": 0.9678571428571429,
+    "test_yestumor_f1": 0.9409722222222222
+}
