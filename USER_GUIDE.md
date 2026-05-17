@@ -20,10 +20,9 @@ The project includes:
 TumorTrace-AI/
 │
 ├── training/
-│   ├── v17_unet_from_scratch.py
-│   ├── v18_resnet50_unet.py
-│   ├── v23_unetpp_tta.py
-│   └── v26_unetpp_precision.py
+│   ├── v17_unet.py
+│   ├── v18_resnet50.py
+│   └── v26_unet++_precision.py
 │
 ├── preprocessing/
 │   └── roi_dataset_builder.py
