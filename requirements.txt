@@ -1,1 +1,15 @@
-
+tensorflow
+numpy
+pandas
+opencv-python
+matplotlib
+scikit-learn
+Pillow
+openpyxl
+streamlit
+scipy
+seaborn
+tqdm
+albumentations
+imageio
+h5py
