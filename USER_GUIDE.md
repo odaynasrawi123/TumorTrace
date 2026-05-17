@@ -7,8 +7,8 @@ The system allows users to analyze medical images, generate segmentation masks, 
 
 The project includes:
 - U-Net V17 model
-- ResNet50-U-Net V18 model
-- UNet++ V23/V26 model
+- ResNet50 V18 model
+- UNet++ V26 model
 - ROC/AUC evaluation
 - Dice and IoU segmentation metrics
 - Dashboard visualizations
