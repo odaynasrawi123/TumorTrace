@@ -2,11 +2,6 @@
 # TumorTrace AI Flask Dashboard - One Colab Cell
 # ============================================================
 
-!pip install -q flask tensorflow opencv-python pandas numpy matplotlib pillow
-
-from google.colab import drive, output
-drive.mount('/content/drive')
-
 app_code = r'''
 from flask import Flask, request, render_template_string, send_file
 from pathlib import Path
