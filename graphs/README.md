@@ -10,7 +10,7 @@ Download the generated graphs here:
 
 
 
-https://drive.google.com/drive/folders/13YJt\_DXK96ldMyE7TMrvHq2iMgH7wMSb?usp=drive\_link
+https://drive.google.com/drive/u/0/folders/13YJt_DXK96ldMyE7TMrvHq2iMgH7wMSb
 
 
 
