@@ -1,7 +1,3 @@
-# ============================================================
-# V18 ResNet50-U-Net Full Pipeline
-# Train ResNet50-U-Net from scratch + full evaluation
-# ============================================================
 
 import os
 import json
