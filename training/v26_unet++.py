@@ -1,9 +1,3 @@
-# ============================================================
-# V26 UNet++ Colab GPU
-# Continue from V25 + 100 epoch controlled fine-tuning
-# Goal: beat U-Net V17 and ResNet segmentation
-# ============================================================
-
 import os, json, time, random, zipfile, tempfile, subprocess
 from pathlib import Path
 
