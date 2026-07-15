@@ -1,21 +1,3 @@
-# ============================================================
-# V17 U-Net From Scratch
-# TumorTrace / Bone Tumor Segmentation
-#
-# Input arrays expected:
-# arrays/v9_roi_polygon_only_160/
-#   X_train.npy, Y_train.npy
-#   X_val.npy, Y_val.npy
-#   X_test.npy, Y_test.npy
-#   df_train_valid.csv, df_val_valid.csv, df_test_valid.csv
-#
-# Output:
-# models/best_v17_unet_baseline_160.keras
-# metrics/metrics_v17_unet_baseline_160.json
-# reports/threshold_search_v17_unet_baseline_160.csv
-# graphs/v17_unet_baseline_160/
-# ============================================================
-
 import os
 import json
 import time
